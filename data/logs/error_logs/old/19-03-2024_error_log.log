@@ -1,0 +1,29 @@
+[Wed, 20 Mar 2024 00:57:12 +0700] [localhost] [::1] [Warning(2): exif_read_data(reactjs.png): File not supported] [FILE: /vendor/vinades/nukeviet/Files/Upload.php] [LINE: 1076] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 73    FILE: /admin/upload/upload.php
+#3  LINE: 1076  FILE: /vendor/vinades/nukeviet/Files/Upload.php
+
+[Wed, 20 Mar 2024 00:59:17 +0700] [localhost] [::1] [Warning(2): file_get_contents(C:/xampp/htdocs/nukeviet/themes//modules/shops\main.tpl): Failed to open stream: No such file or directory] [FILE: /includes/xtemplate.class.php] [LINE: 1333] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 119   FILE: /modules/shops/admin/main.php
+#3  LINE: 395   FILE: /includes/xtemplate.class.php
+#4  LINE: 506   FILE: /includes/xtemplate.class.php
+#5  LINE: 537   FILE: /includes/xtemplate.class.php
+#6  LINE: 1365  FILE: /includes/xtemplate.class.php
+#7  LINE: 1333  FILE: /includes/xtemplate.class.php
+
+[Wed, 20 Mar 2024 01:05:15 +0700] [localhost] [::1] [Run-time notices(8192): Implicit conversion from float 5538070.000000001 to int loses precision] [FILE: /vendor/vinades/nukeviet/Files/Upload.php] [LINE: 163] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 65    FILE: /admin/upload/upload.php
+#3  LINE: 163   FILE: /vendor/vinades/nukeviet/Files/Upload.php
+
+[Wed, 20 Mar 2024 02:30:05 +0700] [localhost] [::1] [User Error(256): Error! Does not exist themes default] [FILE: /index.php] [LINE: 266] [TRACE:]
+#1  LINE: 266   FILE: /index.php
+
+[Wed, 20 Mar 2024 02:30:08 +0700] [localhost] [::1] [Warning(2): require(C:\xampp\htdocs\nukeviet\themes\admin_default\theme.php): Failed to open stream: No such file or directory] [FILE: /admin/index.php] [LINE: 134] [TRACE:]
+#1  LINE: 134   FILE: /admin/index.php
+
+[Wed, 20 Mar 2024 02:30:08 +0700] [localhost] [::1] [Error(1): Uncaught Error: Failed opening required 'C:/xampp/htdocs/nukeviet/themes/admin_default/theme.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\nukeviet\admin\index.php:134
+Stack trace:
+#0 {main}
+  thrown] [FILE: /admin/index.php] [LINE: 134]

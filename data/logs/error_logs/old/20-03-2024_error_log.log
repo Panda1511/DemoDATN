@@ -1,0 +1,16 @@
+[Thu, 21 Mar 2024 06:18:36 +0700] [localhost] [::1] [Warning(2): file_get_contents(C:/xampp/htdocs/nukeviet/themes/vietdep/modules/shops\main.tpl): Failed to open stream: No such file or directory] [FILE: /includes/xtemplate.class.php] [LINE: 1333] [TRACE:]
+#1  LINE: 369   FILE: /index.php
+#2  LINE: 290   FILE: /modules/shops/funcs/main.php
+#3  LINE: 74    FILE: /modules/shops/theme.php
+#4  LINE: 395   FILE: /includes/xtemplate.class.php
+#5  LINE: 506   FILE: /includes/xtemplate.class.php
+#6  LINE: 537   FILE: /includes/xtemplate.class.php
+#7  LINE: 1365  FILE: /includes/xtemplate.class.php
+#8  LINE: 1333  FILE: /includes/xtemplate.class.php
+
+[Thu, 21 Mar 2024 06:27:20 +0700] [localhost] [::1] [Error(1): Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\nukeviet\modules\shops\theme.php:1967
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\modules\shops\funcs\viewcat.php(326): nv_template_viewcat(Array, false, '', 0, 'viewlist')
+#1 C:\xampp\htdocs\nukeviet\index.php(369): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown] [FILE: /modules/shops/theme.php] [LINE: 1967]

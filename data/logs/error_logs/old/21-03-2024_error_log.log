@@ -1,0 +1,20 @@
+[Thu, 21 Mar 2024 07:34:18 +0700] [localhost] [::1] [Warning(2): exif_read_data(reactjs.png): File not supported] [FILE: /vendor/vinades/nukeviet/Files/Upload.php] [LINE: 1076] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 73    FILE: /admin/upload/upload.php
+#3  LINE: 1076  FILE: /vendor/vinades/nukeviet/Files/Upload.php
+
+[Thu, 21 Mar 2024 07:37:05 +0700] [localhost] [::1] [Warning(2): file_get_contents(C:/xampp/htdocs/nukeviet/themes/vietdep/modules/shops\main.tpl): Failed to open stream: No such file or directory] [FILE: /includes/xtemplate.class.php] [LINE: 1333] [TRACE:]
+#1  LINE: 369   FILE: /index.php
+#2  LINE: 290   FILE: /modules/shops/funcs/main.php
+#3  LINE: 74    FILE: /modules/shops/theme.php
+#4  LINE: 395   FILE: /includes/xtemplate.class.php
+#5  LINE: 506   FILE: /includes/xtemplate.class.php
+#6  LINE: 537   FILE: /includes/xtemplate.class.php
+#7  LINE: 1365  FILE: /includes/xtemplate.class.php
+#8  LINE: 1333  FILE: /includes/xtemplate.class.php
+
+[Thu, 21 Mar 2024 07:40:16 +0700] [localhost] [::1] [Run-time notices(8192): Implicit conversion from float 3738929.9999999995 to int loses precision] [FILE: /vendor/vinades/nukeviet/Files/Upload.php] [LINE: 163] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 65    FILE: /admin/upload/upload.php
+#3  LINE: 163   FILE: /vendor/vinades/nukeviet/Files/Upload.php
+
